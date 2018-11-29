@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-11-29T05:08:26Z" name="Default suite" finished-at="2018-11-29T05:08:27Z" duration-ms="282">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:runnerClass.RunnerCukes@11bd0f3b]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2018-11-29T05:08:26Z" name="Default test" finished-at="2018-11-29T05:08:27Z" duration-ms="282">
+      <class name="runnerClass.RunnerCukes">
+        <test-method is-config="true" signature="initializeMethod()[pri:0, instance:runnerClass.RunnerCukes@11bd0f3b]" started-at="2018-11-29T00:08:26Z" name="initializeMethod" finished-at="2018-11-29T00:08:26Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeMethod -->
+        <test-method signature="run_cukes()[pri:0, instance:runnerClass.RunnerCukes@11bd0f3b]" started-at="2018-11-29T00:08:26Z" name="run_cukes" description="Runs Cucumber Features" finished-at="2018-11-29T00:08:27Z" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+        <test-method is-config="true" signature="finishMethod()[pri:0, instance:runnerClass.RunnerCukes@11bd0f3b]" started-at="2018-11-29T00:08:27Z" name="finishMethod" finished-at="2018-11-29T00:08:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishMethod -->
+      </class> <!-- runnerClass.RunnerCukes -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
