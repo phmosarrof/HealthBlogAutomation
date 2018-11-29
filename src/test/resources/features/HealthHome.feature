@@ -1,16 +1,18 @@
-@Smoke
+@Smoke @Regression
 Feature: Health Blog
   I want to use this Health blog to get the important information.
 
-  @Functional
-  Scenario: Title of your scenario
+  Background: 
     Given I want to go to the home page of the Health blog
+
+  @Functional
+  Scenario: Children Health menu functionality test
     When I want to click the Children Health menu
     And I want to click the Food menu
     Then I validate the Children Health page is open successfully
     And I validate the Children Food page is open successfully
 
-  @Functional
+  @Wip
   Scenario Outline: Checking the recent Post Link
     When I check for the "<recentPostLink>" in the right upper corner of the home Page
     Then I verify the "<postLinkpage>" open successfully
